@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso | Casa do Café</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@100;200;300;400;500;600;700;800;900&family=Pavanam&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <header id="descricao-evento">
+        <div id="aviso">
+            <h2>Casa do Café</h2>
+            <p class="sobre-evento">
+                Quer mergulhar no mundo do café? Venha para a segunda ediçao do curso mais esperado do ano!
+            </p>
+            <p>Data e horário</p>
+            <p class="data-evento">Sábado, 20 de Janeiro de 2023 a partir das 15h</p>
+        </div>
+        <div id="formulario">
+            <p>Preencha o formulário para receber informações sobre o curso</p>
+            <form>
+                <div class="caixa-texto">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" placeholder="Digite seu nome">
+                </div>
+                <div class="caixa-texto">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder="Digite seu melhor e-mail">
+                </div>
+                <div class="caixa-texto">
+                    <label for="phone">Telefone</label>
+                    <input type="text" name="phone" placeholder="Digite seu número de Whatsapp">
+                </div>
+                <div class="caixa-texto">
+                    <label for="interest">Principal interesse</label>
+                    <select name="interest">
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="cursos">Cursos</option>
+                        <option value="eventos">Eventos</option>
+                        <option value="palestras">Palestras online</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                </div>
+                <input type="submit" class="botao" value="Quero me inscrever">
+            </form>
+        </div>
+    </header>
+    <section id="motivos-curso">
+        <h2>O que você irá aprender:</h2>
+
+        <div class="motivos">
+            <div class="motivo">
+                <div id="motivo-1" class="motivos-imagens"></div>
+                <p>
+                    Espresso, Cappuccino, Latte e Macchiato
+                </p>
+            </div>
+            <div class="motivo">
+                <div id="motivo-2" class="motivos-imagens"></div>
+                <p>
+                    Classificação do café
+                </p>
+            </div>
+            <div class="motivo">
+                <div id="motivo-3" class="motivos-imagens"></div>
+                <p>
+                    Café Tradicional X Café Especial
+                </p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="localizacao">
+        <div id="endereco">
+            <i class="bi bi-geo-alt-fill"></i>
+            <div id="detalhes-endereco">
+                <p>Rua do evento, 1456</p>
+                <p>Bairro: Centro</p>
+                <p>Abertura: 15h</p>
+            </div>
+        </div>
+        <div id="sobre-local">
+            <h3>Local de destaque</h3>
+            <p>
+                O evento será realizado em um local prestigiados pelos amantes de café, onde temos tudo o que você
+                precisa para entrar neste mundo maravilhoso!
+            </p>
+        </div>
+    </section>
+    <section id="detalhes">
+        <div class="detalhe" id="detalhe-1">
+            <img src="./Arquivos/imagens/tiposcafe.jpg" alt="Vários tipos de café, em cima de uma mesa.">
+            <div class="detalhe-descricao">
+                <h3>Venha conhecer o que realmente é um barista neste curso de 4 semanas de imersão no mundo dos cafés!
+                </h3>
+                <p>Veja logo abaixo algumas informações sobre o curso:</p>
+            </div>
+        </div>
+        <div class="detalhe" id="detalhe-2">
+            <div class="detalhe-descricao">
+                <h3>Detalhes</h3>
+                <ul>
+                    <li>Qual é o papel do barista?</li>
+                    <li>Introdução ao café</li>
+                    <li>Cupping cafés</li>
+                    <li>Moinho para espresso</li>
+                    <li>Introdução à vaporização de leite</li>
+                    <li>E muito mais!</li>
+                </ul>
+            </div>
+            <img src="./Arquivos/imagens/passopasso.jpg" alt="Grão de café, café moído e café pronto com leite.">
+        </div>
+        <div class="detalhe" id="detalhe-3">
+            <img src="./Arquivos/imagens/doisbaristas.jpg" alt="Três tipos de grão de café.">
+            <div class="detalhe-descricao">
+                <h3>O que está incluso</h3>
+                <ul>
+                    <li>Ingredientes e bebidas necessárias para aula prática</li>
+                    <li>Apostila</li>
+                    <li>Amostras de gãos de café</li>
+                    <li>Acesso de 3 meses na plataforma com aulas gravadas</li>
+                    <li>Avental personalizado</li>
+                    <li>Certificado</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="cta">
+        <h3>Gostou?</h3>
+        <p>Venha fazer parte do curso mais esperado pelos amantes de café!</p>
+        <button class="botao">Me inscrever agora mesmo</button>
+    </section>
+    <footer id="rodape">
+        <h3>Casa do Café</h3>
+        <p>Onde sabor e qualidade são indispensáveis</p>
+        <p><span>Entre em contato por e-mail: </span>contato@casadocafe.com.br</p>
+        <p><span>Ou pelo telefone: </span>(13) 98745-6396</p>
+    </footer>
+</body>
+
+</html>
